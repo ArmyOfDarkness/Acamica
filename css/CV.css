@@ -1,0 +1,163 @@
+body {
+
+	background: #002266;
+}
+.unslider {
+
+	max-width:14%;
+	float:left;
+	
+}       
+.unslider ul {
+	font-size: 20px;
+	font-family: cursive;
+	color:#0066cc;
+	
+}
+
+
+#box1 {
+
+	max-width:79%;
+	float:right;
+	background: #99ccff;
+	padding-right:3%;
+	padding-left: 3%;
+	margin-bottom: 1%;
+	height:40%;
+	border-radius: 10px;
+}
+
+               h1.box1-qs {
+
+	                font-size: 28px;
+	                font-family: fantasy;
+                    color:#1f1f7a;
+                    border-bottom: 10px solid #1f1f7a;
+}
+
+                        h1.box1-nombre {
+
+	                        font-family: monospace;
+	                        font-size: 35px;
+	                        color:black;
+}
+
+                                  h2.box1-fejr { 
+
+	                                   color:#1254A6
+}
+
+                                          li.box1-info {
+
+                                               	font-family: arial;
+	                                            font-size:15px;
+	                                            border-bottom:3px solid #1f1f7a;
+	                                            list-style-type: none;
+}
+                                                     p.box1-parrafo1 {
+
+	                                                     font-size: 17px;
+	                                                     font-family: arial;
+}
+
+
+#box2 {
+	max-width:79%;
+	float:right;
+	background: #99ccff;
+	padding-right:3%;
+	padding-left: 3%;
+	height:40%;
+	margin-bottom: 1%;
+	border-radius: 10px;
+
+}
+
+                h1.box2-formación {
+
+	                 font-size: 28px;
+	                 font-family: fantasy;
+                     color:#1f1f7a;
+                     border-bottom: 10px solid #1f1f7a;
+}
+
+                           h1.box2-escuela {
+
+	                           font-size: 22px;
+                               font-family: fantasy;
+	                           color:#1254A6;
+}
+
+                                     p.box2-parrafo2 {
+
+                                          font-size: 17px;
+	                                      font-family: arial;
+}
+
+                                              h1.box2-curso {
+
+	                                               font-size: 22px;
+	                                               font-family: fantasy;
+	                                               color:#1254A6;
+}
+
+                                                         p.box2-parrafo3 {
+
+	                                                         font-size: 17px;
+	                                                         font-family: arial;
+}
+
+
+#box3 {
+
+	max-width:79%;
+	float:right;
+	background: #99ccff;
+	padding-right:3%;
+	padding-left: 3%;
+	height:10%;
+	margin-bottom: 1%;
+	border-radius: 10px;
+}
+
+                  h1.box3-experiencia {
+
+	                   font-size: 28px;
+	                   font-family: fantasy;
+                       color:#1f1f7a;
+                       border-bottom: 10px solid #1f1f7a;
+}
+
+                             p.box3-exp {
+
+	                             font-size: 17px;
+                              	 font-family: arial;
+}
+
+
+#box4 {
+
+     max-width:79%;
+	 float:right;
+	 background:#99ccff;
+	 padding-right:3%;
+	 padding-left: 3%;
+	 height:10%;
+	 border-radius: 10px;
+	 border-bottom: 1%;
+}
+
+              h1.box4-portafolio {
+
+	                font-size: 28px;
+	                font-family: fantasy;
+                    color:#1f1f7a;
+                    border-bottom: 10px solid #1f1f7a;
+}
+
+                         p.box4-portafolio {
+
+                        	font-size: 17px;
+                            font-family: arial;
+}

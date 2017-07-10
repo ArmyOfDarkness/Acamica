@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+     <head>
+           <meta charset= "UTF-8" >
+           <title> Currículum Vitae </title>
+            <link rel="stylesheet" type="text/css" href="../css/CV.css">
+            <link rel="stylesheet" type="text/css" href="../css/extra.css">
+            <link rel="stylesheet" type="text/css" href="../css/unslider.css">
+            
+            <script  type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/unslider.js"></script>    
+     </head>
+
+     <body> 
+            
+            <div class= "unslider">
+            <img src= "foto.jpg" alt="bueno es una pena xd">
+            <ul>
+             <li> <a href="#box1"> Presentación </a> </li>
+             <li> <a href="#box2"> Formación </a></li>
+             <li> <a href="#box3"> Experiencia </a></li>
+             <li> <a href="#box4"> Portafolio </a></li>
+             </ul>
+            </div>
+          
+
+
+           <div id= "box1">
+               <h1 class= "box1-qs"> ¿Quién soy?  </h1>
+               <h1 class="box1-nombre"> Lucas Ferreira </h1>
+               <h2 class="box1-fejr"> Font-end JR. </h2>
+           
+           
+               <ul id="info">
+                 <li class="box1-info"> Nombre: Lucas Ferreira </li>
+                 <li class="box1-info"> Edad: 17 Años </li>
+                 <li class="box1-info"> Dirección: Av.Santa fe 3312 </li>
+                 <li class="box1-info"> Email: lucas1182015@hotmail.com </li>
+                 <li class="box1-info"> Telefóno/celular: 4827-4013 /54 9 11 2581-9390 </li>
+               </ul>
+          
+             <p class= "box1-parrafo1"> 
+                      Me considero una persona bastante perspicaz y paciente cuando se trata sobre la programación. Actualmente estoy a punto de terminar la secundaria y espero con ansias obtener mi primer empleo haciendo lo que más me gusta. 
+             </p>
+
+           </div>
+
+
+           <div id= "box2">
+                <h1 class= "box2-formación"> Formación </h1>
+                <h1 class= "box2-escuela"> Escuela Normal Superior N°6 Vicente lopez y Planes </h1>
+                  <p class="box2-parrafo2">
+                     Estoy cursando la orientación de físico-matemático de 4to y 5to año en esta escuela. Elegí esta orientación porque creo que es lo que más me ayudará en un futuro. Además me gustan mucho las matemáticas y aprender todo el rato cosas nuevas sobre este ámbito. Espero que la mentalidad para resolver los problemás de física, se apliquen para apreciar un punto de vista diferente a la hora de programar.
+                  </p>
+                  <h1 class= "box2-curso"> Curso HTML 5 - Acámica </h1>
+                     <p class ="box2-parrafo3">
+                     Este curso HTML 5 me ayudó a dar los primeros pasos para adentrarme en este mundo, aprendí cómo funciona la web, qué elementos se utilizan para crearla, qué función cumple el cliente y el servidor, cómo funciona internet y lo más importante que es cómo crear una. Además este curso me orientó bastante a la hora de elegir una carrera, ahora sé bien que esto es lo que quiero seguir en un futuro.
+                     </p>
+           </div>
+
+
+           <div id="box3">
+                <h1 class="box3-experiencia"> Experiencia </h1>
+                  <p class="box3-exp">
+                     La verdad como aún no termine el colegio secundario, tengo muy poca experiencia laboral. Sólo puedo decir que trabajé limpiando una oficina que pertenecía a "la Camara Argentina de fabricantes de vidrios" por unos meses por reemplazo de otra persona.
+                  </p>
+           </div>
+
+
+           <div id="box4">
+                <h1 class="box4-portafolio"> Portafolios </h1>
+                  <p class="box4-portafolio"> Todavía no tengo un portafolios demasiado extenso, espero en algún futuro poder rellenarlo de ideas y proyectos. Mientras tanto sólo tengo este CV como material. </p>
+               <div id="slider"> 
+                <ul class="slider">
+                <li>Proyecto 1 </li>
+                <li>Proyecto 2 </li>
+               </ul>
+               </div>
+            </div>
+       <script>
+    jQuery(document).ready(function($) {
+      $('.slider').unslider({
+        arrows: true,
+        autoplay: true
+
+      });
+    });
+  </script>
+       </body>
+</html>
+
+
