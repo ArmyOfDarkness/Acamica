@@ -1,0 +1,25 @@
+h1 {
+  color: red;
+  font-size: 50px;
+  background: black;
+
+}
+h2 {
+  font-family: fantasy, times;
+  font-size: 30px;
+  color:red;
+}
+
+body {
+	background: #226600;
+}
+#ingredientes {
+	color:black;
+	background: #002266;
+}
+#PAS {
+	color:black;
+	background: #002266;
+}
+
+
